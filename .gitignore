@@ -3,6 +3,7 @@ build/*
 ansible/inventory
 ansible/**/__pycache__
 yarn-error.log
+.idea
 .env
 public_keyfile
 public_keyfile.pub

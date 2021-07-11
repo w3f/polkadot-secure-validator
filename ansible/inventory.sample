@@ -84,3 +84,14 @@ polkadot_restart_weekday='1'
 # Optional: Restore the chain db from a .7z snapshot
 polkadot_db_snapshot_url='https://ksm-rocksdb.polkashots.io/kusama-6658753.RocksDb.7z'
 polkadot_db_snapshot_checksum='sha256:4f61a99e4b00acb335aff52f2383880d53b30617c0ae67ac47c611e7bf6971ff'
+
+
+prometheus_enabled='false'
+
+[prometheus]
+123.45.678.90
+
+[prometheus:vars]
+ansible_user=prometheus
+prometheus_binary_url="https://github.com/prometheus/prometheus/releases/download/v2.28.0/prometheus-2.28.0.linux-amd64.tar.gz"
+prometheus_binary_checksum="sha256:d2d0ded275090a13208114b633abe41c40e14c83ff5ec07230d79b4da1d8e701"
